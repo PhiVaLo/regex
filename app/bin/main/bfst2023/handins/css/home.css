@@ -1,0 +1,18 @@
+.root {
+    -fx-background: linear-gradient(skyblue, lightgreen);
+    -fx-background-repeat: no-repeat;
+    -fx-background-attachment: fixed;
+}
+
+#myTextField {
+    -fx-background-color:
+        #090a0c,
+        linear-gradient(#38424b 0%, #1f2429 20%, #191d22 100%),
+        linear-gradient(#20262b, #191d22),
+        radial-gradient(center 50% 0%, radius 100%, #728394e6, #ffffff00);
+    -fx-background-radius: 5, 4, 3, 5;
+    -fx-background-insets: 0, 1, 2, 0;
+    -fx-text-fill: linear-gradient(white, #d0d0d0);
+    -fx-font-size: 14px;
+    -fx-padding: 10 10 10 10;
+}

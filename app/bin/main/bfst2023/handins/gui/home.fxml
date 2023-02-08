@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="350.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="bfst2023.handins.controller.MainController">
+   <children>
+      <Label alignment="CENTER" layoutY="34.0" prefHeight="35.0" prefWidth="600.0" text="Address Parsing">
+         <font>
+            <Font name="Arial" size="24.0" />
+         </font>
+      </Label>
+      <TextField fx:id="myTextField" layoutX="100.0" layoutY="95.0" prefHeight="25.0" prefWidth="400.0" />
+      <Label alignment="CENTER_RIGHT" layoutY="175.0" prefHeight="17.0" prefWidth="200.0" text="Street:">
+         <font>
+            <Font name="Cambria Bold" size="18.0" />
+         </font>
+      </Label>
+      <Label alignment="CENTER_RIGHT" layoutY="200.0" prefHeight="17.0" prefWidth="200.0" text="House:">
+         <font>
+            <Font name="Cambria Bold" size="18.0" />
+         </font>
+      </Label>
+      <Label alignment="CENTER_RIGHT" layoutY="225.0" prefHeight="17.0" prefWidth="200.0" text="Floor/Side:">
+         <font>
+            <Font name="Cambria Bold" size="18.0" />
+         </font>
+      </Label>
+      <Label alignment="CENTER_RIGHT" layoutY="250.0" prefHeight="17.0" prefWidth="200.0" text="Postcode:">
+         <font>
+            <Font name="Cambria Bold" size="18.0" />
+         </font>
+      </Label>
+      <Label alignment="CENTER_RIGHT" layoutY="275.0" prefHeight="17.0" prefWidth="200.0" text="City:">
+         <font>
+            <Font name="Cambria Bold" size="18.0" />
+         </font>
+      </Label>
+      <Label fx:id="street" layoutX="220.0" layoutY="175.0" prefHeight="22.0" prefWidth="338.0">
+         <font>
+            <Font name="Cambria" size="18.0" />
+         </font>
+      </Label>
+      <Label fx:id="house" layoutX="220.0" layoutY="200.0" prefHeight="22.0" prefWidth="338.0">
+         <font>
+            <Font name="Cambria" size="18.0" />
+         </font>
+      </Label>
+      <Label fx:id="floor_side" layoutX="220.0" layoutY="225.0" prefHeight="22.0" prefWidth="338.0">
+         <font>
+            <Font name="Cambria" size="18.0" />
+         </font>
+      </Label>
+      <Label fx:id="postcode" layoutX="220.0" layoutY="250.0" prefHeight="22.0" prefWidth="338.0">
+         <font>
+            <Font name="Cambria" size="18.0" />
+         </font>
+      </Label>
+      <Label fx:id="city" layoutX="220.0" layoutY="275.0" prefHeight="22.0" prefWidth="338.0">
+         <font>
+            <Font name="Cambria" size="18.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>
